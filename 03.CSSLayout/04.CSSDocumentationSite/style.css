@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+main {
+    background-color: #F1F1F1;
+    width: 820px;
+    border: 1px solid black;
+}
+#left {
+    float: left;
+    width: 150px;
+    padding-left: 5px;
+}
+#right {
+    display: inline-block
+}
+#center {
+    background-color: white;
+    border: 1px solid black;
+    float: left;
+    margin-top: 2px;
+    width: 500px;
+    height: 580px
+}
+#center h3 {
+    font-size: 1.5em;
+    padding-left: 5px;
+}
+#center table {
+    width: 99%;
+    margin-left: 2px;
+    text-align: left;
+}
+#center td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#center img {
+    float: left
+}
+#center a {
+    color: #bb6967
+}
+#center table th, #center table td {
+    padding-left: 5px;
+}
+#center table tr th {
+    background-color: #808080;
+    color: white;
+    text-transform: uppercase;
+}
+#center #next, #center #previous {
+    margin-left: 5px;
+    border: none;
+    width: 100px;
+    height: 20px;
+}
+#center #next {
+    background-image: url('images/nextButton.png');
+}
+#center #previous {
+    background-image: url('images/previousButton.png');
+}
+#left h2 {
+    font-size: 1em;
+}
+#left h2:before {
+    content: '';
+    background:url('images/home.png');
+    background-size: 17px 19px;
+    width: 17px;
+    height: 19px;
+    display: inline-block;
+}
+#left ul {
+    list-style: none;
+    display: block;
+    padding-left: 0px;
+    margin-top: 10px;
+    left: 0;
+}
+#left ul::first-line {
+    font-weight: bold;
+    color: #951614
+}
+#right table {
+    width: 150px;
+}
+#right table #stylesButton {
+    background-image: url('images/styles.png');
+    width: 100px;
+    height: 30px
+}
+#right table tr td {
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px;
+    height: 20px;
+    text-align: center;
+}
+#right table tr th {
+    background-color: #808080;
+    color: white;
+    text-transform: uppercase
+}
+#right table tr td a {
+    color: #bb6967;
+    display: inline-block;
+    margin: 3px;
+}
+#right table tr td #submit {
+    width: 20%;
+}
+#right table tr td #search {
+    width: 55%;
+}

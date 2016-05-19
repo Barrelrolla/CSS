@@ -1,0 +1,100 @@
+nav {
+    font-size: 26px;
+    padding-left: 150px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+#laptops {
+    border: 1px solid black;
+    height: 540px;
+    width: 740px;
+    padding: 10px;
+    position: relative;
+}
+#laptop1, #laptop2, #laptop3, #laptop4, #laptop5, #laptop6 {
+    border: 1px solid black;
+    font-size: 20px;
+    position: absolute;
+    display: inline-block;
+    width: 260px;
+    height: 150px;
+}
+#laptop2 {
+    left: 290px;
+}
+#laptop3 {
+    top: 230px;
+}
+#laptop4 {
+    left: 290px;
+    top: 230px;
+}
+#laptop5 {
+    top: 400px;
+}
+#laptop6 {
+    top: 400px;
+    left: 290px;
+}
+#title {
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    top: -12px;
+}
+#laptop1 img, #laptop2 img, #laptop3 img, #laptop4 img, #laptop5 img, #laptop6 img {
+    height: 80px;
+    width: 120px;
+}
+#hard {
+    position: absolute;
+    right: 20px;
+    top: 35px;
+}
+#ram {
+    position: absolute;
+    right: 20px;
+    top: 70px;
+}
+#cpu {
+    position: absolute;
+    right: 20px;
+    top: 110px;
+}
+#price {
+    position: absolute;
+    left: 20px;
+    top: 110px
+}
+#minPrice, #maxPrice, #minRam, #maxRam {
+    position: absolute;
+    right: 30px;
+}
+#minPrice {
+    top: 140px;
+}
+#maxPrice {
+    top: 240px;
+}
+#minRam {
+    top: 340px;
+}
+#maxRam {
+    top: 440px;
+}
+#minPriceText, #maxPriceText, #minRamText, #maxRamText {
+    position: absolute;
+    right: 30px;
+}
+#minPriceText {
+    top: 120px;
+}
+#maxPriceText {
+    top: 220px;
+}
+#minRamText {
+    top: 320px;
+}
+#maxRamText {
+    top: 420px;
+}
